@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-body{
- background-color: black;
+body {
+    background-color: black;
 }
 
 h1 {
@@ -22,13 +22,12 @@ h2 {
 
 @keyframes aparecer {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
     100% {
-      opacity: 1;
+        opacity: 1;
     }
- }
- 
+}
 
 a {
     text-decoration: none;
@@ -57,7 +56,6 @@ form {
     border-color: white;
     margin-left: 700px;
     margin-right: 700px;
-
 }
 
 p {
@@ -66,7 +64,7 @@ p {
     font-family: 'PT Sans', sans-serif;
 }
 
-.lproductos{
+.lproductos {
     color: white;
 }
 
@@ -117,43 +115,17 @@ nav li:hover {
     height: 70px;
 }
 
-.redesp{
-    color:white
+.redesp {
+    color: white
 }
 
-.msj{
+.msj {
     display: block;
     padding-right: 250px;
     margin: 5px
 }
 
-.imagen:hover {
-    transform: translate(20px, 20px);
-}
-
-.imagenes {
-    display: flex;
-    background-color: black;
-    padding: 5px;
-    /* imagenes: row;
-    imagenes: wrap; */
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.imagenes div{
-    display: flex; 
-    flex-direction: column;
-    margin: auto;
-    padding: 3px;
-}
-
-.imagenes div .imagen{
-    background-color:rgb(189, 189, 189);
-}
-
-.categorias{
+.categorias {
     color: rgb(189, 189, 189);
     padding-bottom: 8%;
     font-family: 'PT Sans', sans-serif;
@@ -163,79 +135,103 @@ nav li:hover {
 }
 
 #grilla {
-  display: grid;
-
-  grid-template-areas:
-    "header header header header"
-    "izquierda productos productos derecha"
-    "izquierda servicios servicios derecha"
-    "izquierda comunidad comunidad derecha";
-
-  grid-template-rows: .5fr 1fr 1fr 1fr .5fr;
-  grid-template-columns: 1fr 0fr 1fr 1fr;
-  grid-row-gap: 2rem;
-  grid-column-gap: .5rem;
-  height: 110vh;
-  margin: 20px;
+    display: grid;
+    grid-template-areas: "header header header header" "izquierda productos productos derecha" "izquierda servicios servicios derecha" "izquierda comunidad comunidad derecha";
+    grid-template-rows: .5fr 1fr 1fr 1fr .5fr;
+    grid-template-columns: 1fr 0fr 1fr 1fr;
+    grid-row-gap: 2rem;
+    grid-column-gap: .5rem;
+    height: 110vh;
+    margin: 20px;
 }
 
-.HEADERG{
-  grid-area: header;
-  background-color: black;
-  text-align: center;
-  font-family: 'PT Sans', sans-serif;
-  border: white;
+.HEADERG {
+    grid-area: header;
+    background-color: black;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    border: white;
 }
 
 .borderg {
-  grid-area: productos;
-  text-align: center;
-  color: white;
-  font-family: 'PT Sans', sans-serif;
+    grid-area: productos;
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .serviciosg {
-  grid-area: servicios;
-  text-align: center;
-  color: white;
-  font-family: 'PT Sans', sans-serif;
+    grid-area: servicios;
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .comunidadg {
-  grid-area: comunidad;
-  text-align: center;
-  color: white;
-  font-family: 'PT Sans', sans-serif;
+    grid-area: comunidad;
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .NAVG {
-  grid-area: izquierda;
+    grid-area: izquierda;
 }
 
 .ASIDEG {
-  grid-area: derecha;
-  width: 100%;
+    grid-area: derecha;
+    width: 100%;
 }
 
 .grid {
-  grid-column-gap: 10px;
-  grid-row-gap: 15px;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
 }
 
 .fifa__portada:hover {
     transform: translate(20px, 20px);
 }
 
-.fifa__portada{
+.fifa__portada {
     width: 100%;
-    border-style:ridge;
+    border-style: ridge;
     border-color: white;
 }
 
-.lado__izquierdo{
+.lado__izquierdo {
     width: 100%;
 }
 
-.lado__derecho{
+.lado__derecho {
     width: 100%;
+}
+
+.pt-h2 {
+    padding: 0rem 0 3rem 0;
+    color: var(--ptH1-style);
+}
+
+.pt-6 {
+    padding: 2rem 0 4rem 0;
+}
+
+.pt-7 {
+    padding: 6rem 0 2rem 0;
+}
+
+.card-title {
+    text-align: center;
+}
+
+@keyframes scaleCat {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.card:hover {
+    animation: scaleCat 1s forwards;
 }
