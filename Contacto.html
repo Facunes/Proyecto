@@ -33,83 +33,89 @@
         </nav>
         <br>
         <hr>
+
+
         <section>
             <article>
                 <div class="Container">
                     <div class="row">
                         <form method="post" action="/action_page.php" enctype="text/plain">
 
-                            <div class="col-3 themed-grid-col">
-                                <legend>Seleccione su pais:</legend>
-                                <br>
-                                <select name="Pais">
-                          <option value="Arg">Argentina</option>
-                          <option value="Chi">Chile</option>
-                          <option value="Bra">Brasil</option>
-                          <option value="Uru">Uruguay</option>
-                          <option value="Col">Colombia</option>
-                        </select>
-                                <br>
-                                <br>
-                            </div>
+                            <div class="border__form col-md-6 col-sm-12">
+                                <div>
+                                    <legend>Seleccione su pais:</legend>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <legend>Seleccione su pais:</legend>
+                                        <option value="Arg" selected>Argentina</option>
+                                        <option value="Chi">Chile</option>
+                                        <option value="Bra">Brasil</option>
+                                        <option value="Uru">Uruguay</option>
+                                        <option value="Col">Colombia</option>
+                                    </select>
+                                </div>
 
-                            <div class="col-3 themed-grid-col">
-                                <p>Selecciona tu consola:</p>
-                                <br>
-                                <input type="checkbox" name="consola1" value="PS4">
-                                <label for="consola1"> PS4</label> <br>
-                                <input type="checkbox" name="consola2" value="PS5">
-                                <label for="consola2"> PS5</label> <br>
-                                <input type="checkbox" name="consola3" value="Xbox 360">
-                                <label for="consola3"> Xbox 360</label> <br>
-                                <input type="checkbox" name="consola4" value="Xbox One">
-                                <label for="consola4"> Xbox One</label> <br>
-                            </div>
-                            <br>
-                            <br>
 
-                            <ul>
-                                <li>
-                                    <div class="col-3 themed-grid-col">
-                                        <label for="name">Nombre y Apellido:</label>
-                                        <input type="text" name="user_name" placeholder="Nombre">
+                                <div class="col-md-2 col-sm-3 col-xs-4 offset-md-5 offset-sm-2 offset-xs-2">
+                                    <p>Selecciona tu consola:</p>
+                                    <br>
+                                    <div class="form-check ">
+                                        <input class="form-check-input" type="checkbox" id="consola1" value="PS4">
+                                        <label class="form-check-label" for="consola1">
+                                            PS4
+                                        </label>
                                     </div>
-                                </li>
-
-                                <br>
-
-                                <li>
-                                    <div class="col-3 themed-grid-col">
-                                        <label for="mail">Correo electronico:</label>
-                                        <input type="email" name="user_mail" placeholder="Ingresa tu correo electronio">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="consola2" value="PS5">
+                                        <label class="form-check-label" for="consola2">
+                                            PS5
+                                        </label>
                                     </div>
-                                </li>
-
-                                <br>
-
-                                <li>
-                                    <div class="col-3 themed-grid-col">
-                                        <label for="Telefono">Telefono (Opcional):</label>
-                                        <input type="text" name="user_telefono" placeholder="Telefono">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="consola3" value="Xbox 365">
+                                        <label class="form-check-label" for="consola3">
+                                            Xbox 360
+                                        </label>
                                     </div>
-                                </li>
-
-                                <br>
-
-                                <li>
-                                    <div class="col-3 themed-grid-col">
-                                        <label class="msj" for="msj">Mensaje:</label>
-                                        <textarea rows="5" cols="43" name="user_message" placeholder="Introduci tu mensaje"></textarea>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="consola4" value="Xbox One">
+                                        <label class="form-check-label" for="consola4">
+                                            Xbox One
+                                        </label>
                                     </div>
-                                </li>
-                            </ul>
+                                </div>
 
-                            <div class="col-3 themed-grid-col">
-                                <input type="submit" value="Enviar">
-                                <input type="reset" value="Limpiar">
                                 <br>
                                 <br>
-                                <br>
+
+                                <div>
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">Nombre y Apellido</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Nombre y Apellido" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="mail" class="form-label">Correo electronico</label>
+                                        <input type="email" class="form-control" id="mail" placeholder="Correo electronico" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="Telefono" class="form-label">Telefono (Opcional)</label>
+                                        <input type="tel" class="form-control" id="Telefono" placeholder="+54-11-235689856">
+                                    </div>
+
+                                    <br>
+
+                                    <div class="mb-3">
+                                        <label for="Mensaje" class="form-label">Mensaje</label>
+                                        <textarea class="form-control" id="Mensaje" rows="3"></textarea>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <button type="button" class="btn btn-light">Enviar</button>
+                                    <button type="button" class="btn btn-light">Limpiar</button>
+                                    <br>
+                                    <br>
+                                    <br>
+                                </div>
                             </div>
                         </form>
                     </div>

@@ -52,10 +52,16 @@ form {
     display: block;
     margin: auto;
     font-family: 'PT Sans', sans-serif;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+form .border__form {
     border-style: groove;
     border-color: white;
-    margin-left: 700px;
-    margin-right: 700px;
+    padding: 1rem 2rem;
+    margin: 2rem;
 }
 
 p {
