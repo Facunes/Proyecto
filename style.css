@@ -231,6 +231,7 @@
                                     
                                     .card-title {
                                         text-align: center;
+                                        color: black;
                                     }
                                     
                                     @keyframes scaleCat {
