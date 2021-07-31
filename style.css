@@ -1,265 +1,247 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-h1 {
-    color: white;
-}
-
-h2 {
-    color: white;
-    text-align: center;
-    font-family: 'PT Sans', sans-serif;
-    animation-duration: 2s;
-    animation-name: aparecer;
-}
-
-@keyframes aparecer {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-.texto {
-    text-align: center;
-    color: white;
-    font-size: 120%;
-    animation-duration: 2s;
-    animation-name: aparecer;
-}
-
-li {
-    display: block;
-}
-
-form {
-    text-align: center;
-    color: white;
-    display: block;
-    margin: auto;
-    font-family: 'PT Sans', sans-serif;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-}
-
-form .border__form {
-    border-style: groove;
-    border-color: white;
-    padding: 1rem 2rem;
-    margin: 2rem;
-}
-
-p {
-    color: white;
-    text-align: center;
-    font-family: 'PT Sans', sans-serif;
-}
-
-.lproductos {
-    color: white;
-}
-
-nav {
-    text-align: center;
-}
-
-nav a {
-    text-decoration: none;
-    color: inherit;
-    font-size: 14px;
-}
-
-nav li {
-    display: inline-block;
-    width: 10%;
-    padding: 5px 10px;
-    background-color: #000;
-    border: 1px solid #000;
-    text-align: center;
-    color: #fff;
-    font-family: 'PT Sans', sans-serif;
-    border-style: groove;
-    border-color: white
-}
-
-nav li:hover {
-    background-color: #fff;
-    color: #000;
-}
-
-.portada {
-    display: block;
-    margin: auto;
-}
-
-.redesi {
-    display: block;
-    margin: auto;
-    width: 190px;
-    height: 90px;
-}
-
-.redesf {
-    display: block;
-    margin: auto;
-    width: 80px;
-    height: 70px;
-}
-
-.redesp {
-    color: white
-}
-
-.msj {
-    display: block;
-    padding-right: 250px;
-    margin: 5px
-}
-
-#grilla {
-    display: grid;
-    grid-template-areas: "header header header header" "izquierda productos productos derecha" "izquierda servicios servicios derecha" "izquierda comunidad comunidad derecha";
-    grid-template-rows: .5fr 1fr 1fr 1fr .5fr;
-    grid-template-columns: 1fr 0fr 1fr 1fr;
-    grid-row-gap: 2rem;
-    grid-column-gap: .5rem;
-    height: 110vh;
-    margin: 20px;
-}
-
-.HEADERG {
-    grid-area: header;
-    background-color: black;
-    text-align: center;
-    font-family: 'PT Sans', sans-serif;
-    border: white;
-}
-
-.borderg {
-    grid-area: productos;
-    text-align: center;
-    color: white;
-    font-family: 'PT Sans', sans-serif;
-}
-
-.borderg:hover {
-    animation: borderg 1s forwards;
-}
-
-@keyframes borderg {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.1);
-    }
-}
-
-.serviciosg {
-    grid-area: servicios;
-    text-align: center;
-    color: white;
-    font-family: 'PT Sans', sans-serif;
-}
-
-.serviciosg:hover {
-    animation: serviciosg 1s forwards;
-}
-
-@keyframes serviciosg {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.1);
-    }
-}
-
-.comunidadg {
-    grid-area: comunidad;
-    text-align: center;
-    color: white;
-    font-family: 'PT Sans', sans-serif;
-}
-
-.comunidadg:hover {
-    animation: comunidadg 1s forwards;
-}
-
-@keyframes comunidadg {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.1);
-    }
-}
-
-.NAVG {
-    grid-area: izquierda;
-}
-
-.ASIDEG {
-    grid-area: derecha;
-    width: 100%;
-}
-
-.grid {
-    grid-column-gap: 10px;
-    grid-row-gap: 15px;
-}
-
-.fifa__portada {
-    width: 100%;
-    border-style: ridge;
-    border-color: white;
-}
-
-.lado__izquierdo {
-    width: 100%;
-}
-
-.lado__derecho {
-    width: 100%;
-}
-
-.pt-h2 {
-    padding: 0rem 0 3rem 0;
-    color: var(--ptH1-style);
-}
-
-.pt-6 {
-    padding: 2rem 0 4rem 0;
-}
-
-.pt-7 {
-    padding: 6rem 0 2rem 0;
-}
-
-.card-title {
-    text-align: center;
-}
-
-@keyframes scaleCat {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.1);
-    }
-}
-
-.card:hover {
-    animation: scaleCat 1s forwards;
-}
+                                    * {
+                                        margin: 0;
+                                        padding: 0;
+                                        box-sizing: border-box;
+                                    }
+                                    
+                                    h1 {
+                                        color: white;
+                                    }
+                                    
+                                    h2 {
+                                        color: white;
+                                        text-align: center;
+                                        font-family: 'PT Sans', sans-serif;
+                                        animation-duration: 2s;
+                                        animation-name: aparecer;
+                                    }
+                                    
+                                    @keyframes aparecer {
+                                        0% {
+                                            opacity: 0;
+                                        }
+                                        100% {
+                                            opacity: 1;
+                                        }
+                                    }
+                                    
+                                    a {
+                                        text-decoration: none;
+                                        color: white;
+                                    }
+                                    
+                                    .texto {
+                                        text-align: center;
+                                        color: white;
+                                        font-size: 120%;
+                                        animation-duration: 2s;
+                                        animation-name: aparecer;
+                                    }
+                                    
+                                    li {
+                                        display: block;
+                                    }
+                                    
+                                    form {
+                                        text-align: center;
+                                        color: white;
+                                        display: block;
+                                        margin: auto;
+                                        font-family: 'PT Sans', sans-serif;
+                                        margin: auto;
+                                        display: flex;
+                                        justify-content: center;
+                                    }
+                                    
+                                    form .border__form {
+                                        border-style: groove;
+                                        border-color: white;
+                                        padding: 1rem 2rem;
+                                        margin: 2rem;
+                                    }
+                                    
+                                    p {
+                                        color: white;
+                                        text-align: center;
+                                        font-family: 'PT Sans', sans-serif;
+                                    }
+                                    
+                                    .lproductos {
+                                        color: white;
+                                    }
+                                    
+                                    nav {
+                                        text-align: center;
+                                    }
+                                    
+                                    nav a {
+                                        text-decoration: none;
+                                        color: inherit;
+                                        font-size: 14px;
+                                    }
+                                    
+                                    nav li {
+                                        display: inline-block;
+                                        width: 10%;
+                                        padding: 5px 10px;
+                                        background-color: #000;
+                                        border: 1px solid #000;
+                                        text-align: center;
+                                        color: #fff;
+                                        font-family: 'PT Sans', sans-serif;
+                                        border-style: groove;
+                                        border-color: white
+                                    }
+                                    
+                                    nav li:hover {
+                                        background-color: #fff;
+                                        color: #000;
+                                    }
+                                    
+                                    .portada {
+                                        display: block;
+                                        margin: auto;
+                                    }
+                                    
+                                    .msj {
+                                        display: block;
+                                        padding-right: 250px;
+                                        margin: 5px
+                                    }
+                                    
+                                    #grilla {
+                                        display: grid;
+                                        grid-template-areas: "header header header header" "izquierda productos productos derecha" "izquierda servicios servicios derecha" "izquierda comunidad comunidad derecha";
+                                        grid-template-rows: .5fr 1fr 1fr 1fr .5fr;
+                                        grid-template-columns: 1fr 0fr 1fr 1fr;
+                                        grid-row-gap: 2rem;
+                                        grid-column-gap: .5rem;
+                                        height: 110vh;
+                                        margin: 20px;
+                                    }
+                                    
+                                    .HEADERG {
+                                        grid-area: header;
+                                        background-color: black;
+                                        text-align: center;
+                                        font-family: 'PT Sans', sans-serif;
+                                        border: white;
+                                    }
+                                    
+                                    .borderg {
+                                        grid-area: productos;
+                                        text-align: center;
+                                        color: white;
+                                        font-family: 'PT Sans', sans-serif;
+                                    }
+                                    
+                                    .borderg:hover {
+                                        animation: borderg 1s forwards;
+                                    }
+                                    
+                                    @keyframes borderg {
+                                        0% {
+                                            transform: scale(1);
+                                        }
+                                        100% {
+                                            transform: scale(1.1);
+                                        }
+                                    }
+                                    
+                                    .serviciosg {
+                                        grid-area: servicios;
+                                        text-align: center;
+                                        color: white;
+                                        font-family: 'PT Sans', sans-serif;
+                                    }
+                                    
+                                    .serviciosg:hover {
+                                        animation: serviciosg 1s forwards;
+                                    }
+                                    
+                                    @keyframes serviciosg {
+                                        0% {
+                                            transform: scale(1);
+                                        }
+                                        100% {
+                                            transform: scale(1.1);
+                                        }
+                                    }
+                                    
+                                    .comunidadg {
+                                        grid-area: comunidad;
+                                        text-align: center;
+                                        color: white;
+                                        font-family: 'PT Sans', sans-serif;
+                                    }
+                                    
+                                    .comunidadg:hover {
+                                        animation: comunidadg 1s forwards;
+                                    }
+                                    
+                                    @keyframes comunidadg {
+                                        0% {
+                                            transform: scale(1);
+                                        }
+                                        100% {
+                                            transform: scale(1.1);
+                                        }
+                                    }
+                                    
+                                    .NAVG {
+                                        grid-area: izquierda;
+                                    }
+                                    
+                                    .ASIDEG {
+                                        grid-area: derecha;
+                                        width: 100%;
+                                    }
+                                    
+                                    .grid {
+                                        grid-column-gap: 10px;
+                                        grid-row-gap: 15px;
+                                    }
+                                    
+                                    .fifa__portada {
+                                        width: 100%;
+                                        border-style: ridge;
+                                        border-color: white;
+                                    }
+                                    
+                                    .lado__izquierdo {
+                                        width: 100%;
+                                    }
+                                    
+                                    .lado__derecho {
+                                        width: 100%;
+                                    }
+                                    
+                                    .pt-h2 {
+                                        padding: 0rem 0 3rem 0;
+                                        color: var(--ptH1-style);
+                                    }
+                                    
+                                    .pt-6 {
+                                        padding: 2rem 0 4rem 0;
+                                    }
+                                    
+                                    .pt-7 {
+                                        padding: 6rem 0 2rem 0;
+                                    }
+                                    
+                                    .card-title {
+                                        text-align: center;
+                                    }
+                                    
+                                    @keyframes scaleCat {
+                                        0% {
+                                            transform: scale(1);
+                                        }
+                                        100% {
+                                            transform: scale(1.1);
+                                        }
+                                    }
+                                    
+                                    .card:hover {
+                                        animation: scaleCat 1s forwards;
+                                    }
