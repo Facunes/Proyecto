@@ -108,6 +108,7 @@
                                         padding-right: 250px;
                                         margin: 5px
                                     }
+                                    /*GRID*/
                                     
                                     #grilla {
                                         display: grid;
@@ -215,13 +216,15 @@
                                     .lado__derecho {
                                         width: 100%;
                                     }
+                                    /*GRID*/
+                                    /*CARDS PRODUCTOS*/
                                     
                                     .pt-h2 {
                                         padding: 0rem 0 3rem 0;
                                         color: var(--ptH1-style);
                                     }
                                     
-                                    .pt-6 {
+                                    .pt-8 {
                                         padding: 2rem 0 4rem 0;
                                     }
                                     
@@ -246,3 +249,21 @@
                                     .card:hover {
                                         animation: scaleCat 1s forwards;
                                     }
+                                    /*CARDS PRODUCTOS*/
+                                    /*Secciones cards juegos*/
+                                    
+                                    .pa-h2 {
+                                        padding: 0rem 0 3rem 0;
+                                        color: var(--ptH1-style);
+                                    }
+                                    
+                                    .card-titulo {
+                                        text-align: center;
+                                        color: black;
+                                    }
+                                    
+                                    .card-text {
+                                        text-align: center;
+                                        color: black;
+                                    }
+                                    /*Secciones cards juegos*/
