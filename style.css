@@ -266,4 +266,12 @@
                                         text-align: center;
                                         color: black;
                                     }
+                                    
+                                    .btn {
+                                        margin-left: 28%;
+                                    }
+                                    
+                                    .card-h-100 {
+                                        background-color: yellow;
+                                    }
                                     /*Secciones cards juegos*/
