@@ -55,26 +55,27 @@
     </header>
 
     <main>
+
         <nav>
             <div class="hide">
                 <i class="fa fa-bars" aria-hidden="true"></i> Menu
             </div>
 
-            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-            <script>
-                $(".hide").on('click', function() {
-                    $("nav ul").toggle('slow');
-                })
-            </script>
-
-
             <ul id="main">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="Nuestros productos.html">Productos</a></li>
                 <li><a href="Contacto.html">Contacto</a></li>
-                <li><a href="Quienes somos.html">¿Quiénes somos?</a></li>
+                <li><a href="Quienes somos.html">¿Quiénes somos?</a>
+                </li>
             </ul>
         </nav>
+
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>
+            $(".hide").on('click', function() {
+                $("nav ul").toggle('slow');
+            })
+        </script>
 
         <br>
 

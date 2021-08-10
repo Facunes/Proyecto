@@ -16,6 +16,23 @@
                                                 animation-name: aparecer;
                                             }
                                             
+                                            h3 {
+                                                color: white;
+                                                text-align: center;
+                                                font-family: 'PT Sans', sans-serif;
+                                                animation-duration: 2s;
+                                                animation-name: aparecer;
+                                            }
+                                            
+                                            h5 {
+                                                color: white;
+                                                text-align: center;
+                                                font-family: 'PT Sans', sans-serif;
+                                                animation-duration: 2s;
+                                                animation-name: aparecer;
+                                                margin-top: 15px;
+                                            }
+                                            
                                             @keyframes aparecer {
                                                 0% {
                                                     opacity: 0;
@@ -118,7 +135,7 @@
                                                 .hide {
                                                     display: block;
                                                 }
-                                                nav ul {
+                                                #main {
                                                     display: none;
                                                 }
                                             }
@@ -137,7 +154,7 @@
                                             /*CARDS PRODUCTOS*/
                                             
                                             .pt-h2 {
-                                                padding: 0rem 0 3rem 0;
+                                                padding: 0rem 0 1rem 0;
                                                 color: var(--ptH1-style);
                                             }
                                             
