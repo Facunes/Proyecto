@@ -51,60 +51,63 @@
             </div>
         </div>
 
-        <img class="portada" src="Fotos/PORTADA1.jpg" alt="No se pudo cargar la imagen">
+        <div>
+            <img class="portada" src="Fotos/PORTADA1.jpg" alt="No se pudo cargar la imagen">
+        </div>
 
     </header>
 
     <main>
-
-        <nav>
-            <div class="hide">
-                <i class="fa fa-bars" aria-hidden="true"></i> Menu
-            </div>
-
-            <ul id="main">
-                <li><i class="fas fa-home"></i><a href="index.html">Inicio</a></li>
-                <li><i class="fas fa-gamepad"></i><a href="Nuestros productos.html">Productos</a></li>
-                <li><i class="fas fa-envelope"></i><a href="Contacto.html">Contacto</a></li>
-                <li><i class="fas fa-user-friends"></i><a href="Quienes somos.html">¿Quiénes somos?</a></li>
-            </ul>
-        </nav>
-
-        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-        <script>
-            $(".hide").on('click', function() {
-                $("nav ul").toggle('slow');
-            })
-        </script>
-
-        <br>
-
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="Fotos/Captura.JPG" class="d-block w-100" alt="No se puede abrir la imagen">
+        <section>
+            <nav>
+                <div class="hide">
+                    <i class="fa fa-bars" aria-hidden="true"></i> Menu
                 </div>
-                <div class="carousel-item">
-                    <img src="Fotos/FIFA22.jpg" class="d-block w-100" alt="No se puede abrir la imagen">
+
+                <ul id="main">
+                    <li><i class="fas fa-home"></i><a href="index.html">Inicio</a></li>
+                    <li><i class="fas fa-gamepad"></i><a href="Nuestros productos.html">Productos</a></li>
+                    <li><i class="fas fa-envelope"></i><a href="Contacto.html">Contacto</a></li>
+                    <li><i class="fas fa-user-friends"></i><a href="Quienes somos.html">¿Quiénes somos?</a></li>
+                </ul>
+            </nav>
+
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+            <script>
+                $(".hide").on('click', function() {
+                    $("nav ul").toggle('slow');
+                })
+            </script>
+
+            <br>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-item">
-                    <img src="Fotos/NBA22.jpg" class="d-block w-100" alt="No se puede abrir la imagen">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Fotos/Captura.JPG" class="d-block w-100" alt="No se puede abrir la imagen">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Fotos/FIFA22.jpg" class="d-block w-100" alt="No se puede abrir la imagen">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Fotos/NBA22.jpg" class="d-block w-100" alt="No se puede abrir la imagen">
+                    </div>
                 </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-        </div>
+            </div>
+        </section>
 
     </main>
     <br>
@@ -115,13 +118,11 @@
 
             <div class="container">
                 <div class="row d flex justify-content-between">
-                    <div class="col-sm-6 col-md-2">
+                    <div class="col-sm-2 col-md-1">
                         <h4 class="footer-title">Navegación</h4>
                     </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-sm-6 col-md-2">
+                    <div class="col-sm-2 col-md-1">
                         <ul class="footer-list ">
                             <li>
                                 <a href="index.html ">Inicio</a>
@@ -137,17 +138,16 @@
                             </li>
                         </ul>
                     </div>
-                </div>
 
 
-                <div class="row row-col-2">
-                    <div>
-                        <h4 class="footer-title">Seguinos:</h4>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-sm-3 col-md-4">
+
+
+
+                    <div class="col-sm-2 col-md-1">
+                        <div>
+                            <h4 class="footer-title">Seguinos:</h4>
+                        </div>
                         <ul class="redes">
                             <li>
                                 <i class="fab fa-facebook-square fa-3x"></i>
@@ -157,11 +157,12 @@
                             </li>
                         </ul>
                     </div>
-
                 </div>
 
+            </div>
 
-                <br>
+            </div>
+            <br>
         </section>
     </footer>
 

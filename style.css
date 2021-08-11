@@ -1,221 +1,225 @@
-                                            * {
-                                                margin: 0;
-                                                padding: 0;
-                                                box-sizing: border-box;
+                                        * {
+                                            margin: 0;
+                                            padding: 0;
+                                            box-sizing: border-box;
+                                        }
+                                        
+                                        h1 {
+                                            color: white;
+                                        }
+                                        
+                                        h2 {
+                                            color: white;
+                                            text-align: center;
+                                            font-family: 'PT Sans', sans-serif;
+                                            animation-duration: 2s;
+                                            animation-name: aparecer;
+                                        }
+                                        
+                                        h3 {
+                                            color: white;
+                                            text-align: center;
+                                            font-family: 'PT Sans', sans-serif;
+                                            animation-duration: 2s;
+                                            animation-name: aparecer;
+                                        }
+                                        
+                                        h5 {
+                                            color: white;
+                                            text-align: center;
+                                            font-family: 'PT Sans', sans-serif;
+                                            animation-duration: 2s;
+                                            animation-name: aparecer;
+                                            margin-top: 15px;
+                                        }
+                                        
+                                        @keyframes aparecer {
+                                            0% {
+                                                opacity: 0;
                                             }
-                                            
-                                            h1 {
-                                                color: white;
+                                            100% {
+                                                opacity: 1;
                                             }
-                                            
-                                            h2 {
-                                                color: white;
+                                        }
+                                        
+                                        a {
+                                            text-decoration: none;
+                                            color: white;
+                                        }
+                                        
+                                        .texto {
+                                            text-align: center;
+                                            color: white;
+                                            font-size: 120%;
+                                            animation-duration: 2s;
+                                            animation-name: aparecer;
+                                        }
+                                        
+                                        .portada {
+                                            display: block;
+                                            margin: auto;
+                                        }
+                                        /******************************************************/
+                                        /*********************FORMULARIO CONTACTOS*************/
+                                        /******************************************************/
+                                        
+                                        li {
+                                            display: block;
+                                        }
+                                        
+                                        form {
+                                            text-align: center;
+                                            color: white;
+                                            display: block;
+                                            margin: auto;
+                                            font-family: 'PT Sans', sans-serif;
+                                            margin: auto;
+                                            display: flex;
+                                            justify-content: center;
+                                        }
+                                        
+                                        form .border__form {
+                                            border-style: groove;
+                                            border-color: white;
+                                            padding: 1rem 2rem;
+                                            margin: 2rem;
+                                        }
+                                        
+                                        p {
+                                            color: white;
+                                            text-align: center;
+                                            font-family: 'PT Sans', sans-serif;
+                                        }
+                                        /******************************************************/
+                                        /*********************FORMULARIO CONTACTOS*************/
+                                        /******************************************************/
+                                        /******************************************************/
+                                        /***********************MENU***************************/
+                                        /******************************************************/
+                                        
+                                        nav {
+                                            text-align: center;
+                                        }
+                                        
+                                        nav a {
+                                            text-decoration: none;
+                                            color: inherit;
+                                            font-size: 14px;
+                                        }
+                                        
+                                        nav li {
+                                            display: inline-block;
+                                            width: 10%;
+                                            padding: 5px 10px;
+                                            background-color: #000;
+                                            border: 1px solid #000;
+                                            text-align: center;
+                                            color: #fff;
+                                            font-family: 'PT Sans', sans-serif;
+                                            border-style: groove;
+                                            border-color: white
+                                        }
+                                        
+                                        #main li:hover {
+                                            background-color: #fff;
+                                            color: #000;
+                                            transition: all ease-in-out 200ms;
+                                        }
+                                        
+                                        .hide {
+                                            padding: 10px;
+                                            font-size: 20px;
+                                            color: white;
+                                            cursor: pointer;
+                                            font-family: 'PT Sans', sans-serif;
+                                            display: none;
+                                        }
+                                        
+                                        @media (max-width: 1280px) {
+                                            #main li {
+                                                width: 100%;
+                                                padding: px;
                                                 text-align: center;
-                                                font-family: 'PT Sans', sans-serif;
-                                                animation-duration: 2s;
-                                                animation-name: aparecer;
                                             }
-                                            
-                                            h3 {
-                                                color: white;
-                                                text-align: center;
-                                                font-family: 'PT Sans', sans-serif;
-                                                animation-duration: 2s;
-                                                animation-name: aparecer;
-                                            }
-                                            
-                                            h5 {
-                                                color: white;
-                                                text-align: center;
-                                                font-family: 'PT Sans', sans-serif;
-                                                animation-duration: 2s;
-                                                animation-name: aparecer;
-                                                margin-top: 15px;
-                                            }
-                                            
-                                            @keyframes aparecer {
-                                                0% {
-                                                    opacity: 0;
-                                                }
-                                                100% {
-                                                    opacity: 1;
-                                                }
-                                            }
-                                            
-                                            a {
-                                                text-decoration: none;
-                                                color: white;
-                                            }
-                                            
-                                            .texto {
-                                                text-align: center;
-                                                color: white;
-                                                font-size: 120%;
-                                                animation-duration: 2s;
-                                                animation-name: aparecer;
-                                            }
-                                            
-                                            li {
-                                                display: block;
-                                            }
-                                            
-                                            form {
-                                                text-align: center;
-                                                color: white;
-                                                display: block;
-                                                margin: auto;
-                                                font-family: 'PT Sans', sans-serif;
-                                                margin: auto;
-                                                display: flex;
-                                                justify-content: center;
-                                            }
-                                            
-                                            form .border__form {
-                                                border-style: groove;
-                                                border-color: white;
-                                                padding: 1rem 2rem;
-                                                margin: 2rem;
-                                            }
-                                            
-                                            p {
-                                                color: white;
-                                                text-align: center;
-                                                font-family: 'PT Sans', sans-serif;
-                                            }
-                                            
-                                            .lproductos {
-                                                color: white;
-                                            }
-                                            /*MENU*/
-                                            
-                                            nav {
-                                                text-align: center;
-                                            }
-                                            
-                                            nav a {
-                                                text-decoration: none;
-                                                color: inherit;
-                                                font-size: 14px;
-                                            }
-                                            
-                                            nav li {
-                                                display: inline-block;
-                                                width: 10%;
-                                                padding: 5px 10px;
-                                                background-color: #000;
-                                                border: 1px solid #000;
-                                                text-align: center;
-                                                color: #fff;
-                                                font-family: 'PT Sans', sans-serif;
-                                                border-style: groove;
-                                                border-color: white
-                                            }
-                                            
-                                            #main li:hover {
-                                                background-color: #fff;
-                                                color: #000;
-                                                transition: all ease-in-out 200ms;
-                                            }
-                                            
                                             .hide {
-                                                padding: 10px;
-                                                font-size: 20px;
-                                                color: white;
-                                                cursor: pointer;
-                                                font-family: 'PT Sans', sans-serif;
+                                                display: block;
+                                            }
+                                            #main {
                                                 display: none;
                                             }
-                                            
-                                            @media (max-width: 1280px) {
-                                                #main li {
-                                                    width: 100%;
-                                                    padding: px;
-                                                    text-align: center;
-                                                }
-                                                .hide {
-                                                    display: block;
-                                                }
-                                                #main {
-                                                    display: none;
-                                                }
+                                        }
+                                        
+                                        .fas {
+                                            padding-right: 10px;
+                                        }
+                                        /******************************************************/
+                                        /***********************MENU***************************/
+                                        /******************************************************/
+                                        /******************************************************/
+                                        /********************CARDS PRODUCTOS********************/
+                                        /******************************************************/
+                                        
+                                        .pt-h2 {
+                                            padding: 0rem 0 1rem 0;
+                                            color: var(--ptH1-style);
+                                        }
+                                        
+                                        .pt-8 {
+                                            padding: 2rem 0 4rem 0;
+                                        }
+                                        
+                                        .pt-7 {
+                                            padding: 6rem 0 2rem 0;
+                                        }
+                                        
+                                        .card-title {
+                                            text-align: center;
+                                            color: black;
+                                        }
+                                        
+                                        @keyframes scaleCat {
+                                            0% {
+                                                transform: scale(1);
                                             }
-                                            
-                                            .fas {
-                                                padding-right: 10px;
+                                            100% {
+                                                transform: scale(1.1);
                                             }
-                                            /*MENU*/
-                                            
-                                            .portada {
-                                                display: block;
-                                                margin: auto;
-                                            }
-                                            
-                                            .msj {
-                                                display: block;
-                                                padding-right: 250px;
-                                                margin: 5px
-                                            }
-                                            /*CARDS PRODUCTOS*/
-                                            
-                                            .pt-h2 {
-                                                padding: 0rem 0 1rem 0;
-                                                color: var(--ptH1-style);
-                                            }
-                                            
-                                            .pt-8 {
-                                                padding: 2rem 0 4rem 0;
-                                            }
-                                            
-                                            .pt-7 {
-                                                padding: 6rem 0 2rem 0;
-                                            }
-                                            
-                                            .card-title {
-                                                text-align: center;
-                                                color: black;
-                                            }
-                                            
-                                            @keyframes scaleCat {
-                                                0% {
-                                                    transform: scale(1);
-                                                }
-                                                100% {
-                                                    transform: scale(1.1);
-                                                }
-                                            }
-                                            
-                                            .card:hover {
-                                                animation: scaleCat 1s forwards;
-                                            }
-                                            /*CARDS PRODUCTOS*/
-                                            /*Secciones cards juegos*/
-                                            
-                                            .pa-h2 {
-                                                padding: 0rem 0 3rem 0;
-                                                color: var(--ptH1-style);
-                                            }
-                                            
-                                            .card-titulo {
-                                                text-align: center;
-                                                color: black;
-                                            }
-                                            
-                                            .card-text {
-                                                text-align: center;
-                                                color: black;
-                                            }
-                                            
-                                            .card-h-100 {
-                                                background-color: yellow;
-                                            }
-                                            
-                                            .fifa22 {
-                                                text-align: center;
-                                                color: red;
-                                                font-weight: bold;
-                                            }
-                                            /*Secciones cards juegos*/
-                                            
-                                            .fab {
-                                                size: 8px;
-                                            }
+                                        }
+                                        
+                                        .card:hover {
+                                            animation: scaleCat 1s forwards;
+                                        }
+                                        /******************************************************/
+                                        /*********************CARDS PRODUCTOS******************/
+                                        /******************************************************/
+                                        /******************************************************/
+                                        /*********************SECCIONES CARDS JUEGOS***********/
+                                        /******************************************************/
+                                        
+                                        .pa-h2 {
+                                            padding: 0rem 0 3rem 0;
+                                            color: var(--ptH1-style);
+                                        }
+                                        
+                                        .card-titulo {
+                                            text-align: center;
+                                            color: black;
+                                        }
+                                        
+                                        .card-text {
+                                            text-align: center;
+                                            color: black;
+                                        }
+                                        
+                                        .card-h-100 {
+                                            background-color: yellow;
+                                        }
+                                        
+                                        .fifa22 {
+                                            text-align: center;
+                                            color: red;
+                                            font-weight: bold;
+                                        }
+                                        /******************************************************/
+                                        /*********************SECCIONES CARDS JUEGOS***********/
+                                        /******************************************************/
