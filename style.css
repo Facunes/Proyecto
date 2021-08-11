@@ -109,10 +109,10 @@
                                         
                                         nav li {
                                             display: inline-block;
-                                            width: 10%;
+                                            width: 15%;
                                             padding: 5px 10px;
                                             background-color: #000;
-                                            border: 1px solid #000;
+                                            border: 2px solid #000;
                                             text-align: center;
                                             color: #fff;
                                             font-family: 'PT Sans', sans-serif;
@@ -135,11 +135,12 @@
                                             display: none;
                                         }
                                         
-                                        @media (max-width: 1280px) {
+                                        @media (max-width: 1063px) {
                                             #main li {
-                                                width: 100%;
+                                                width: 60%;
                                                 padding: px;
                                                 text-align: center;
+                                                margin-right: 5%;
                                             }
                                             .hide {
                                                 display: block;
