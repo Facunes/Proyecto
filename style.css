@@ -225,7 +225,6 @@
                                         /*********************SECCIONES CARDS JUEGOS***********/
                                         /******************************************************/
                                         
-                                        #icono {
-                                            display: inline-block;
-                                            margin-right: 500%;
+                                        ul li .fab {
+                                            padding: 0 .25rem 0 .25rem;
                                         }
